@@ -1,22 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section id="home">            
-        <h1>Projeto aula Git e GitHub</h1>
+    <main class="page">
+        <section id="home" class="hero">
+            <div class="hero__content">
+                <h1>Projeto aula Git e GitHub</h1>
+                <h2>UC00617 - Utilizar serviços Git e GitHub</h2>
+                <h3>Formador: Pedro Almeida</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro in illum at, laboriosam earum rem tempore vitae unde molestias soluta distinctio officiis cupiditate voluptatum autem, ullam libero.</p>
+            </div>
 
-        <h2>UC00617 - Utilizar serviços Git e GitHub</h2>
+            <section class="login-card" aria-labelledby="login-title">
+                <h2 id="login-title">Login</h2>
+                <form class="login-form" action="#" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
 
-        <h3>Formador: Pedro Almeida</h3>
+                    <label for="password">Palavra-passe</label>
+                    <input type="password" id="password" name="password" placeholder="Introduza a sua palavra-passe" required>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro in illum at, laboriosam earum rem tempore vitae unde molestias soluta distinctio officiis cupiditate voluptatum autem, ullam libero! Delectus laudantium nemo consequuntur vel aliquid, maxime similique culpa, molestias rerum, dolor blanditiis. Explicabo accusamus pariatur nulla molestiae voluptates odio voluptatum culpa inventore eos omnis, dolor laboriosam, quas dicta ea, totam qui ad. Illo deserunt aliquid sequi laborum voluptatem, ad aspernatur sed quia dolor distinctio quos harum iure doloremque exercitationem inventore ullam dolorem officia iste quasi veniam hic beatae minus. Vitae, repellat. Consequuntur a recusandae dolore dolorem atque officiis vitae pariatur ducimus!</p>
-       
-    </section>
+                    <button type="submit">Entrar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    
     
     <script src="script.js"></script>
 </body>
